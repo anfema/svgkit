@@ -720,7 +720,6 @@ static NSMutableDictionary* globalSVGKImageCache;
 {
 	if( CALayerTree == nil )
 	{
-		NSDate* startTime = [NSDate date];
 		self.CALayerTree = [[self newCALayerTree] autorelease];
     }
 	
